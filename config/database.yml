@@ -11,7 +11,7 @@ default: &default
 
 development:
   <<: *default
-  host:localhost
+  host: localhost
   username: pguser
   password: password
   database: my_db
